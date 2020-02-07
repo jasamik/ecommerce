@@ -1,26 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
-import { ProductGridComponent } from './components/product-grid/product-grid.component';
-import { BannerComponent } from './components/banner/banner.component';
-import { BestsellerComponent } from './components/bestseller/bestseller.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { SliderComponent } from './components/slider/slider.component';
+import { HeaderComponent } from './header/header.component';
+import { SliderComponent } from './slider/slider.component';
+import { BannerComponent } from './banner/banner.component';
+import { ProductosComponent } from './productos/productos.component';
+import { MasVendidosComponent } from './mas-vendidos/mas-vendidos.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ProductGridComponent,
+    SliderComponent,
     BannerComponent,
-    BestsellerComponent,
+    ProductosComponent,
+    MasVendidosComponent,
     FooterComponent,
-    SliderComponent
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

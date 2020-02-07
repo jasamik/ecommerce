@@ -1,5 +1,5 @@
 {
-  "name": "comercio",
+  "name": "frontend",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,19 +19,18 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@fortawesome/angular-fontawesome": "^0.5.0",
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.0",
+    "popper.js": "^1.16.1",
     "rxjs": "~6.4.0",
-    "sweetalert": "^2.1.2",
-    "sweetalert2": "^9.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.803.21",
-    "@angular/cli": "~8.3.21",
+    "@angular-devkit/build-angular": "~0.803.24",
+    "@angular/cli": "~8.3.24",
     "@angular/compiler-cli": "~8.2.14",
     "@angular/language-service": "~8.2.14",
     "@types/node": "~8.9.4",
